@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T15:03:24.527Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="qMcSIiW_JYOl0YMIHJJn" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T15:04:12.054Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/111.0" etag="hRxJgXxVAZTueQyRLdLt" version="21.1.4" type="github">
   <diagram name="Page-1" id="hXSNoD9cRh0RHjMnyHjL">
     <mxGraphModel dx="1010" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -99,6 +99,9 @@
         </mxCell>
         <mxCell id="nJ07uF_AjNDzlgj22Fnk-29" value="Caching is handled by docker when using scratch images, so we no longer need to generate directory hashes." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
           <mxGeometry x="740" y="310" width="140" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ07uF_AjNDzlgj22Fnk-30" value="Need a way to invalidate a successful deployment in case the deployment fails but is marked as successful anyway." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="440" y="730" width="140" height="122.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
